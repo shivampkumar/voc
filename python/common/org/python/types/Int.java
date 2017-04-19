@@ -1,5 +1,6 @@
 package org.python.types;
 
+
 public class Int extends org.python.types.Object {
     public long value;
 
@@ -228,7 +229,8 @@ public class Int extends org.python.types.Object {
         if (other instanceof org.python.types.Int) {
             return new org.python.types.Int(this.value - ((org.python.types.Int) other).value);
         } else if (other instanceof org.python.types.Float) {
-            return new org.python.types.Float(((double) this.value) - ((org.python.types.Float) other).value);
+            
+            return new org.python.types.Float(((float) this.value) - ((org.python.types.Float) other).value);
         } else if (other instanceof org.python.types.Bool) {
             return new org.python.types.Int(this.value - (((org.python.types.Bool) other).value ? 1 : 0));
         } else if (other instanceof org.python.types.Complex) {
