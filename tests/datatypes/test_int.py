@@ -56,6 +56,18 @@ class BinaryIntOperationTests(BinaryOperationTestCase, TranspileTestCase):
         'test_direct_lt_frozenset',
         'test_direct_ne_frozenset',
 
+        'test_eq_class',
+        'test_eq_frozenset',
+
+        'test_ge_class',
+        'test_ge_frozenset',
+
+        'test_gt_class',
+        'test_gt_frozenset',
+
+        'test_le_class',
+        'test_le_frozenset',
+        
         'test_lshift_class',
         'test_lshift_frozenset',
 
@@ -148,7 +160,6 @@ class InplaceIntOperationTests(InplaceOperationTestCase, TranspileTestCase):
         'test_subtract_class',
         'test_subtract_complex',
         'test_subtract_frozenset',
-        'test_subtract_float',
 
         'test_true_divide_class',
         'test_true_divide_complex',
