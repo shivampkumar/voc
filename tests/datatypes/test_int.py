@@ -67,7 +67,7 @@ class BinaryIntOperationTests(BinaryOperationTestCase, TranspileTestCase):
 
         'test_le_class',
         'test_le_frozenset',
-        
+
         'test_lshift_class',
         'test_lshift_frozenset',
 
