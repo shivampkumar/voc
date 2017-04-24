@@ -708,10 +708,6 @@ public class Int extends org.python.types.Object {
             return new org.python.types.Int(this.value);
         }
         throw new org.python.exceptions.TypeError("unsupported operand type(s) for >>=: 'int' and '" + other.typeName() + "'");
-
-
-
-
     }
 
     @org.python.Method(
