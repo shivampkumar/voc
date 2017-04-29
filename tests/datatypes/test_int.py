@@ -120,6 +120,7 @@ class InplaceIntOperationTests(InplaceOperationTestCase, TranspileTestCase):
 
         'test_and_class',
         'test_and_frozenset',
+        'test_subtract_float',
 
         'test_floor_divide_class',
         'test_floor_divide_complex',
